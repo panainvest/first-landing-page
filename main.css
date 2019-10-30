@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.main-subnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 30px;
+    
+}
+
+.logo-img{
+    display: inline-block;
+    width: 100px;
+}
+
+.hamburger{
+   display: inline-block;
+}
+
+.hamburger a{
+    text-decoration: none;
+    color: #6041e8;
+}
+
+.menu{
+    display: none;
+}
+
+header{
+    padding: 35% 30px;
+    margin-top: 100px;
+    background-color: #fffbfa;
+    background: url('media/alcancia-cerdito.jpg');
+    background-size: 77%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    position: relative;
+    background-position-x: 10px;
+    background-position-y: center;
+    
+}
+
+h1{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 50%;
+}
+
+.product-proposition{
+    padding: 9% 30px;
+    background-color: #6041e8;
+}
+
+.product-proposition h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    line-height: 27px;
+}
+
+.values-added{
+    padding: 3% 30px;
+}
+
+.list-values{
+    list-style: none;
+}
+
+.list-values li{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+.mobile-app{
+    background-color: #eaf0fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 30px;
+}
+
+.mobile-app-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-app-imgs img{
+    height: 270px;
+}
+
+h3{
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.mobile-app p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.form-explain{
+    padding: 7% 30px;
+    font-size: 16px;
+    line-height: 23px;
+    background-color: #6041e8;
+    text-align: center;
+    color: white;
+}
+
+.form-explain .sub-tagline{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.waitlist{
+    padding: 5% 30px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    background-color: #eaf0fd;
+    border: none;
+    height: 40px;
+    border-radius: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #5360ff;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    height:50px;
+    border-radius: 7px;
+}
+
+
+
+
