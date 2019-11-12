@@ -240,3 +240,148 @@ address a{
     font-style: italic;
     font-size: 15px;
 }
+
+@media screen and (min-width: 760px){
+    header{
+        padding: 25% 30px; 
+    }
+
+    /*.logo-img{
+        position: absolute;
+        width: 10%;
+        top:30px;
+        left:30px;
+    }*/
+
+    .logo-img{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+
+    .product-proposition h2{
+        font-size: 25px;
+    }
+
+    .product-proposition{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .values-added{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .list-values{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .value-item{
+        flex-basis: 33%;
+    }
+
+    .list-values li{
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .form-explain p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .form-explain .sub-tagline{
+        font-size: 20px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+    }
+
+    footer h4{
+        text-align: left;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    address{
+        flex-basis: 80%;
+    }
+
+    .social-media{
+        flex-basis: 20%;
+        
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+
+
+    .privacy{
+        flex-basis: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    header{
+        padding: 5% 60px;
+        background-position-x: 0;
+    }
+
+    .logo-img{
+        width: 30%;
+    }
+
+    .product-proposition{
+        padding: 3% 60px;
+    }
+
+    .mobile-app{
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mobile-access-text{
+        font-size: 40px;
+        margin-right: 50px;
+    }
+
+    .mobile-app-imgs img{
+        height: 400px;
+    }
+
+    footer{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    
+}
