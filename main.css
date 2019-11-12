@@ -241,7 +241,7 @@ address a{
     font-size: 15px;
 }
 
-@media screen and (min-width: 760px){
+@media screen and (min-width: 680px){
     header{
         padding: 25% 30px; 
     }
@@ -347,7 +347,7 @@ address a{
 
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1000px){
     header{
         padding: 5% 60px;
         background-position-x: 0;
