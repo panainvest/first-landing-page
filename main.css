@@ -91,6 +91,16 @@ h1{
 
 }
 
+.privacy{
+    padding: 5% 30px;
+    font-size: 18px;
+
+}
+
+.privacy > h2 {
+    text-align: center;
+}
+
 .list-values{
     list-style: none; 
     margin:0 0 35px 0;
