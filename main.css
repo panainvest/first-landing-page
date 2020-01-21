@@ -31,7 +31,9 @@ body{
     
 }
 
-
+b{
+    color: black;
+}
 
 .logo-img{
     display: inline-block;
@@ -53,7 +55,7 @@ body{
 
 header{
     padding: 35% 30px;
-    background-color: #fffbfa;
+    background-color: #fff;
     
     position: relative;
     display: flex;
