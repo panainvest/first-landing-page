@@ -114,13 +114,15 @@ h1{
 }
 
 .privacy{
-    padding: 5% 30px;
-    font-size: 18px;
+    padding: 3% 25px;
+    font-size: 16px;
+    color: #4d4d5f;
+    line-height: 24px;
 
 }
 
-.privacy > h2 {
-    text-align: center;
+.privacy h3 {
+    text-align: left;
 }
 
 .list-values{
@@ -267,10 +269,11 @@ address a{
     margin: 15px 0 30px 0;
 }
 
-.privacy p{
-    font-style: italic;
-    font-size: 15px;
+.mascot-privacy img{
+    width: 350px;
 }
+
+
 
 @media screen and (min-width: 680px){
     header{
@@ -373,7 +376,9 @@ address a{
 
 
     .privacy{
-        flex-basis: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+
     }
 
     .hero{
@@ -398,6 +403,8 @@ address a{
     .mascot img {
         width: 400px;
     }
+
+    
 
 
 }
@@ -461,5 +468,8 @@ address a{
         width: 400px;
     }
 
-    
+    .privacy{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
